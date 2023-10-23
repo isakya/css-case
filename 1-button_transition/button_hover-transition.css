@@ -1,0 +1,29 @@
+button {
+	width: 100px;
+	height: 60px;
+	background-color: aqua;
+	border: none;
+	/* 多属性transition */
+	/* transition-property: background-color color width; */
+	
+	/* 另外设置多个设定 */
+	/* transition-property: all; */
+	/* transition-duration: 3000ms; */
+	/* transition-delay: 1s; */
+	
+	/* 多属性 多设定 单行设置 */
+	/* transition: background-color 3s ease-in-out 1s, */
+	/* color 2s ease 4s, border-radius 4s ease-out 6s */
+	
+	/* 所有属性统一设置，不灵活 */
+	transition: all 3s ease-in 2s;
+	
+}
+
+	
+button:hover {
+	background-color: greenyellow;
+	color: pink;
+	width: 200px;
+	border-radius: 50%;
+}
