@@ -1,0 +1,13 @@
+button {
+	width: 100px;
+	height: 60px;
+	background-color: aqua;
+	border: none;
+	transition-property: background-color;
+	transition-duration: 3000ms;
+}
+
+	
+button:hover {
+	background-color: greenyellow;
+}
