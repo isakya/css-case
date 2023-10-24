@@ -5,6 +5,11 @@
 		<title></title>
 	</head>
 	<style>
+		body {
+			/* 声明为3D容器，像素表示距离远近，像素越大，距离越远 */
+			perspective: 1000px;
+		}
+		
 		img {
 			width: 200px;
 			display: block;
@@ -16,7 +21,7 @@
 			/* 1. 百分比控制 */
 			/* transform-origin: 30% 80%; */
 			/* 2. 像素控制 */
-			transform-origin: 30px 80px;
+			/* transform-origin: 30px 80px; */
 		}
 
 		img:hover {
@@ -56,7 +61,10 @@
 			
 			
 			/* rotate旋转效果 */
-			transform: rotate(45deg)
+			/* transform: rotate(45deg) */
+			
+			/* 3D效果，往Z轴移动，近大远小 */
+			transform: translateZ(-300px);
 		}
 	</style>
 	<body>
