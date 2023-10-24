@@ -11,6 +11,12 @@
 			margin: auto;
 			margin-top: 200px;
 			transition: transform 2s;
+			
+			/* 旋转点 */
+			/* 1. 百分比控制 */
+			/* transform-origin: 30% 80%; */
+			/* 2. 像素控制 */
+			transform-origin: 30px 80px;
 		}
 
 		img:hover {
@@ -46,8 +52,11 @@
 			/* transform: skewY(-30deg); */
 			
 			/* transform: skew(-30deg, 40deg); */
-			transform: skew(-40deg);
+			/* transform: skew(-40deg); */
 			
+			
+			/* rotate旋转效果 */
+			transform: rotate(45deg)
 		}
 	</style>
 	<body>
